@@ -87,7 +87,9 @@ export default {
   },
   computed: {
     _id() {
-      return 'editor_' + new Date().getTime()
+      return (
+        'edt_' + Math.round(Math.random() * 1000) + '_' + new Date().getTime()
+      )
     }
   }
 }
