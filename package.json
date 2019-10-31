@@ -1,19 +1,19 @@
 {
-  "name": "vue-tinymce",
-  "version": "0.0.1",
-  "description": "tinymce",
+  "name": "vue-reditor",
+  "version": "0.0.2",
+  "description": "vue-reditor",
   "main": "src/index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js --mode production"
   },
-  "author": "huanglei  <email@huanglei.org>",
+  "author": "ihuanglei <code.huanglei@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ihuanglei/vue-tinymce.git"
+    "url": "https://github.com/ihuanglei/vue-reditor.git"
   },
   "keywords": [
-    "vue-tinymce",
+    "vue-reditor",
     "vue",
     "tinymce",
     "editor"

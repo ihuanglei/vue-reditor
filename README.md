@@ -1,4 +1,7 @@
-# vue-tinymce
+# vue-reditor
 
-npm install vue-tinymce --save
+npm install vue-reditor --save
+
+<Reditor v-model="val"/>
+
 

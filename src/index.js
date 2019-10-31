@@ -1,7 +1,7 @@
-import Editor from './view'
+import Reditor from './view'
 
 export default {
   install: function(vue, options) {
-    vue.component('Editor', Editor)
+    vue.component('Reditor', Reditor)
   }
 }

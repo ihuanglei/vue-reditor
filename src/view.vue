@@ -6,12 +6,13 @@
 
 <script>
 import tinymce from 'tinymce'
-import '@/zh_CN.js'
+import './zh_CN.js'
 import 'tinymce/themes/silver/theme/'
 import 'tinymce/skins/ui/oxide/skin.min.css'
 import 'tinymce/plugins/image'
 import 'tinymce/plugins/lists'
 export default {
+  name: 'Reditor',
   props: {
     height: {
       type: Number,

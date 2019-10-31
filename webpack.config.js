@@ -7,8 +7,8 @@ module.exports = {
   output: {
     publicPath: '/dist',
     path: path.resolve(__dirname, './dist'),
-    filename: 'vue-tinymce.js',
-    library: 'vue-tinymce',
+    filename: 'vue-reditor.js',
+    library: 'vue-reditor',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
